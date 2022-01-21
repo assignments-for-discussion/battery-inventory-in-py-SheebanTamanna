@@ -15,7 +15,7 @@ def test_bucketing_by_number_of_cycles():
   assert(counts["mediumCount"] == 3)
   assert(counts["highCount"] == 1)
   print("Done counting :)")
-  if counts=="lowCount":
+  if counts=="lowCount" or <=:
        lowCount++
   elif counts=="mediumCount":  
        mediumCount++
